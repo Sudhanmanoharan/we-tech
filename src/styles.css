@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat, "Montserrat", sans-serif;
+}
+
+
+button:focus, button:active:focus, button.active:focus {
+  outline: none !important;
+  outline-style: none !important;
+}
+
+
+.button-close {
+  color: white !important;
+  border-radius: 5px;
+  background-color: #021b7b;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  color: #021b7b;
+}
+
+table {
+  width: 100%;
+}
+
+.image {
+  height: 46em;
+  width: auto;
+  background-image: url('./assets/register.jpg');
+  background-size: 100% 100%;
+  background-position: top center;
+}
+
+
+.padding-30 {
+  padding: 30px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.color-white {
+  color: white;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.end {
+  text-align: end;
+}
+
+.justify {
+  text-align: justify;
+}
+
+
+

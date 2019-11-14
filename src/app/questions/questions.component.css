@@ -1,0 +1,13 @@
+
+.padding-question {
+  padding: 10px 170px 10px 170px;
+}
+
+
+.button {
+  height: 45px;
+  width: 200px;
+  border-radius: 5px;
+  background-color: #021b7b;
+  font-family: 'Montserrat', sans-serif;
+}

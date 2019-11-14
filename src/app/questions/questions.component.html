@@ -1,0 +1,154 @@
+<br>
+<br>
+<div class="center">
+  <h3 class="header">Question</h3>
+  <div class="padding-question">
+    <p class="justify">
+      The sinking of the Titanic is one of the most infamous shipwrecks in history.
+    </p>
+    <p class="justify">
+      On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding
+      with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of
+      1502
+      out of 2224 passengers and crew.
+    </p>
+    <p class="justify">
+      While there was some element of luck involved in surviving, it seems some groups of people were more likely to
+      survive than others.
+    </p>
+    <p class="justify">
+      In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were
+      more
+      likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
+    </p>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-2">
+      <b class="header">First Class</b>
+    </div>
+    <div class="col-sm-2">
+      <b class="header">Second Class</b>
+    </div>
+    <div class="col-sm-2">
+      <b class="header">Third Class</b>
+    </div>
+    <div class="col-sm-2">
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col-sm-4">
+      <b class="header"> Age </b>
+    </div>
+    <div class="col-sm-2">
+      <mat-form-field appearance="outline" >
+        <mat-label>Age</mat-label>
+        <mat-select>
+          <mat-option value="0_10">0 - 10</mat-option>
+          <mat-option value="10_20">10 - 20</mat-option>
+          <mat-option value="20_30">20 - 30</mat-option>
+          <mat-option value="30_40">40 - 50</mat-option>
+          <mat-option value="50_60">50 - 60</mat-option>
+          <mat-option value="60_70">60 - 70</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="col-sm-2">
+      <mat-form-field appearance="outline" >
+        <mat-label>Age</mat-label>
+        <mat-select>
+          <mat-option value="0_10">0 - 10</mat-option>
+          <mat-option value="10_20">10 - 20</mat-option>
+          <mat-option value="20_30">20 - 30</mat-option>
+          <mat-option value="30_40">40 - 50</mat-option>
+          <mat-option value="50_60">50 - 60</mat-option>
+          <mat-option value="60_70">60 - 70</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="col-sm-2">
+      <mat-form-field appearance="outline" >
+        <mat-label>Age</mat-label>
+        <mat-select>
+          <mat-option value="0_10">0 - 10</mat-option>
+          <mat-option value="10_20">10 - 20</mat-option>
+          <mat-option value="20_30">20 - 30</mat-option>
+          <mat-option value="30_40">40 - 50</mat-option>
+          <mat-option value="50_60">50 - 60</mat-option>
+          <mat-option value="60_70">60 - 70</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="col-sm-2">
+    </div>
+  </div>
+
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <b class="header"> Gender </b>
+    </div>
+    <div class="col-sm-2">
+      <mat-form-field appearance="outline" >
+        <mat-label>Gender</mat-label>
+        <mat-select>
+          <mat-option value="male">Male</mat-option>
+          <mat-option value="female">Female</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="col-sm-2">
+      <mat-form-field appearance="outline" >
+        <mat-label>Gender</mat-label>
+        <mat-select>
+          <mat-option value="male">Male</mat-option>
+          <mat-option value="female">Female</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="col-sm-2">
+      <mat-form-field appearance="outline" >
+        <mat-label>Gender</mat-label>
+        <mat-select>
+          <mat-option value="male">Male</mat-option>
+          <mat-option value="female">Female</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="col-sm-3">
+    </div>
+  </div>
+
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <b class="header"> Sibling </b>
+    </div>
+    <div class="col-sm-2">
+      <mat-form-field appearance="outline" >
+        <mat-label> No of Sibling </mat-label>
+        <input matInput placeholder="Favorite food" >
+      </mat-form-field>
+    </div>
+    <div class="col-sm-2">
+      <mat-form-field appearance="outline" >
+        <mat-label> No of Sibling </mat-label>
+        <input matInput placeholder="Favorite food" >
+      </mat-form-field>
+    </div>
+    <div class="col-sm-2">
+      <mat-form-field appearance="outline" >
+        <mat-label> No of Sibling </mat-label>
+        <input matInput placeholder="Favorite food" >
+      </mat-form-field>
+    </div>
+    <div class="col-sm-3">
+    </div>
+  </div>
+
+  <br>
+  <button class="button" mat-raised-button color="primary" (click)="submit()">Submit</button>
+</div>
